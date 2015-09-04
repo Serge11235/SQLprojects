@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Circus">
+  <Items>
+    <LogicalFolder Name="Соединения" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="ПК-ПК:пк-ПК\пк">
+          <Created>2015-07-09T10:23:41.7880737+03:00</Created>
+          <Type>SQL</Type>
+          <Server>ПК-ПК</Server>
+          <UserName />
+          <Authentication>Проверка подлинности Windows</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Запросы" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="1CreateDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ПК-ПК:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ПК-ПК</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1CreateDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.0CreateTABLE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ПК-ПК:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ПК-ПК</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2.0CreateTABLE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.1tableINITIAL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ПК-ПК:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ПК-ПК</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2.1tableINITIAL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3RenameTABLE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ПК-ПК:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ПК-ПК</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>3RenameTABLE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="4CreateTriggers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ПК-ПК:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ПК-ПК</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>4CreateTriggers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5TestTriggers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ПК-ПК:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ПК-ПК</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>5TestTriggers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="6CreateFunctions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ПК-ПК:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ПК-ПК</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>6CreateFunctions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="7Select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ПК-ПК:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ПК-ПК</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>7Select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="8Tickets.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ПК-ПК:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ПК-ПК</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>8Tickets.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DropTABLE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ПК-ПК:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ПК-ПК</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DropTABLE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FailTickets_Visitors.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ПК-ПК:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ПК-ПК</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FailTickets_Visitors.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Feeding.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ПК-ПК:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ПК-ПК</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Feeding.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GroupByStatusDemo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ПК-ПК:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ПК-ПК</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GroupByStatusDemo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ProcFuncBuyTick.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ПК-ПК:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ПК-ПК</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ProcFuncBuyTick.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Разное" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
